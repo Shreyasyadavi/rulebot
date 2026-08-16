@@ -53,7 +53,7 @@ async def handle_chat_message(request: ChatRequest) -> ChatResponse:
             responseType="fallback",
             intent=None,
             category=None,
-            matchType="fallback",
+            matchType="none",
             confidence=0.0,
             sessionId=session_id,
             pipelineStep="response_delivery"

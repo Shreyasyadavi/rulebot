@@ -12,6 +12,10 @@ class ChatRequest(BaseModel):
         max_length=2000,
         description="The user's text message to process."
     )
+    sessionId: Optional[str] = Field(
+        default=None,
+        description="Optional session identifier for the active conversation."
+    )
 
 
 class ChatResponse(BaseModel):

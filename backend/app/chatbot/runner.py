@@ -52,7 +52,7 @@ def main():
             "responseType": "fallback",
             "intent": None,
             "category": None,
-            "matchType": "fallback",
+            "matchType": "none",
             "confidence": 0.0,
             "sessionId": session_id,
             "pipelineStep": "response_delivery"
